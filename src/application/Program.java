@@ -1,6 +1,7 @@
 package application;
 
 import boardgame.Position;
+import chess.ChessMatch;
 
 public class Program {
 
@@ -8,8 +9,8 @@ public class Program {
 		// TODO Auto-generated method stub
 		
 		
-		Position pos = new Position(3, 5);
-		System.out.println("pos");
+		ChessMatch chessMatch = new ChessMatch();
+		UI.printBoard(chessMatch.getPieces());
 	}
 
 }
